@@ -4,7 +4,7 @@ box-sizing: border-box
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-image: linear-gradient(rgb(14, 38, 255), rgb(236, 236, 236));
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(236, 236, 236));
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

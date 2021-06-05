@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Ankit-IIITian </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <title>Text Analyzer</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Solution to Text Analyzer for Thinkful 3.1">
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+  <div class="logo"><a href="text.html"><img src="Tech Solve.png" style="width: 8vmax; height: 8vmax;"></a></div>
+  <div class="container">
+    <main>
+      <h1 style="font: bold; font-size: 60px;">Text Analyzer</h1>
+      <form class="js-txt-form">
+        <div>
+          <textarea cols="70" rows="18" id="user-text" style="font-size: 28px;" name="user-text" placeholder="Here you can type any text to Analyze." required></textarea>
+        </div>
+        <br>
+        <div>
+          <button type="submit" style="font-weight: 700; font-size: 30px; margin-bottom: 80px;">Analyze it!</button>
+        </div>
+      </form>
+
+      <dl class="hidden text-report js-txt-report">
+        <dt style="font-size: 2vmax; font-weight: 700; color: blueviolet;">Upper Letter</dt>
+        <dd class="js-upperletter-count" style="font-size: 1.7vmax; font-weight: 700;"></dd>
+
+        <dt style="font-size: 2vmax; font-weight: 700; color: blueviolet;">Lower Letter</dt>
+        <dd class="js-lowerletter-count" style="font-size: 1.7vmax; font-weight: 700;"></dd>
+
+        <dt style="font-size: 2vmax; font-weight: 700; color: blueviolet;">Special Character(#,:,@,$,%,&,*,!,+,-)</dt>
+        <dd class="js-specialletter-count" style="font-size: 1.7vmax; font-weight: 700;"></dd>
+
+        <dt style="font-size: 2vmax; font-weight: 700; color: blueviolet;">Word count</dt>
+        <dd class="js-word-count" style="font-size: 1.7vmax; font-weight: 700;"></dd>
+
+        <dt style="font-size: 2vmax; font-weight: 700; color: blueviolet;">Unique word count</dt>
+        <dd class="js-unique-word-count" style="font-size: 1.7vmax; font-weight: 700;"></dd>
+
+        <dt style="font-size: 2vmax; font-weight: 700; color: blueviolet;">Average word length</dt>
+        <dd class="js-average-word-length" style="font-size: 1.7vmax; font-weight: 700; margin-bottom: 70px;"></dd>
+      </dl>
+    </main>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="app.js"></script>
+
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+  <footer>
+    <div class="ff" style="margin-top: 50px;">
+      <p>Developed By: Mr. Ankit Kumar</p>
+      <p>copyright &#169; 2021 Tech Solve.All Rights Reserved</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

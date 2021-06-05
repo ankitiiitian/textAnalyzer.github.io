@@ -1,0 +1,74 @@
+* {
+box-sizing: border-box
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url('https://www.gtcocalcomp.com/wp-content/uploads/2018/05/white-texture-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 30px;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.text-report dt:after {
+  content: ": ";
+}
+
+textarea {
+	background: rgb(247, 162, 162);
+}
+
+button {
+  color: rgb(2, 2, 2);
+  width: 200px;
+  height: 60px;
+}
+
+button:hover {
+  background: rgb(0, 0, 0);
+  color: silver;
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo{
+  float: left;
+  position: relative;
+  margin: 10px 10px 10px 10px;
+}
+
+.ff {
+  clear: both;
+  display: block;
+  position: fixed;
+  left: 0;
+  overflow: hidden;
+  bottom: 0;
+  width: 108%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+

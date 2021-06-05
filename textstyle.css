@@ -1,0 +1,54 @@
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+}
+h2{
+    position: relative;
+    margin-top: 100px;
+    font-size: 6em;
+    letter-spacing: 15px;
+    color: grey;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+    0%,15%,25%,40%,50%,65%,75%,90%
+    {
+        color: grey;
+        text-shadow: none;
+    }
+    100%,15.1%,25.1%,40.1%,50.1%,65.1%,75.1%,90.1%
+    {
+        color: aliceblue;
+        text-shadow: 0 0 10px grey,
+        0 0 20px grey,
+        0 0 40px grey,
+        0 0 80px grey,
+        0 0 160px grey;
+        }
+
+}
+.bb{
+    align-items: center;
+    position: absolute;
+    margin-bottom: 40%;
+    
+}
